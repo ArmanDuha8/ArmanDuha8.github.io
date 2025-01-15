@@ -19,14 +19,19 @@ Research Interests
 
 Featured Research Projects
 ======
-Power-Law Interacting Spin Models
-Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering. Read More
-{::comment}![Editing a markdown file for a talk](/images/editing-talk.png){:/comment}
-Quantum Transport in Dirac Fermions
-Analyzed phase transitions driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems. Read More
+### Power-Law Interacting Spin Models
+Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering.   
+Read More  
+![spin_squeezing](/images/spin_squeezing.png)  
+### Quantum Transport in Dirac Fermions
+Analyzed phase transitions driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems.  
+Read More   
+![quantum_transport](/images/quantum_transport.png)   
 
-Lead-Free Perovskite Solar Cells
-Achieved 31% efficiency in tandem solar cells, offering a sustainable alternative to lead-based designs. Read More
+### Lead-Free Perovskite Solar Cells
+Achieved 31% efficiency in tandem solar cells, offering a sustainable alternative to lead-based designs.  
+Read More   
+![solar_cell](/images/solar_cell.png)
 
 Technical Expertise
 ======
