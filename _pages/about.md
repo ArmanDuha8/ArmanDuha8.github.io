@@ -12,10 +12,10 @@ Currently pursuing my Ph.D. in Physics at Oklahoma State University, I aim to br
 
 Research Interests
 ======
-** - Quantum Many-Body Dynamics:** Studying out-of-equilibrium phases, entanglement generation, and quantum-enhanced sensing.
-** - Quantum Simulation:** Leveraging ultra-cold atoms and Floquet-engineered spin systems for innovative quantum platforms.
-** - Topological Materials:** Exploring transport phenomena in 2D materials, novel phases of matter, and quantum computing.
-** - Material Optimization:** Performing first-principles calculations, DFT molecular dynamics for renewable energy sources.
+- **Quantum Many-Body Dynamics:** Studying out-of-equilibrium phases, entanglement generation, and quantum-enhanced sensing.
+- **Quantum Simulation:** Leveraging ultra-cold atoms and Floquet-engineered spin systems for innovative quantum platforms.
+- **Topological Materials:** Exploring transport phenomena in 2D materials, novel phases of matter, and quantum computing.
+- **Material Optimization:** Performing first-principles calculations, DFT molecular dynamics for renewable energy sources.
 
 Featured Research Projects
 ======
@@ -30,10 +30,10 @@ Achieved 31% efficiency in tandem solar cells, offering a sustainable alternativ
 
 Technical Expertise
 ======
-**Programming:** Python, Mathematica, C++
-**Quantum Simulation:** Discrete truncated Wigner approximation, 2D Dirac fermions modeling
-**Machine Learning:** Symbolic regression for materials science
-** - Tools:** Density Functional Theory (DFT), molecular dynamics, HPC clusters
+- **Programming:** Python, Mathematica, C++
+- **Quantum Simulation:** Discrete truncated Wigner approximation, 2D Dirac fermions modeling
+- **Machine Learning:** Symbolic regression for materials science
+- **Tools:** Density Functional Theory (DFT), molecular dynamics, HPC clusters
 
 Create content & metadata
 ------
