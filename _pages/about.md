@@ -21,16 +21,79 @@ Featured Research Projects
 ======
 ### Power-Law Interacting Spin Models
 Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering.   
-Read More  
+<details>
+  <summary>Read more</summary>
+  
+  Our work demonstrates the scalable and robust
+  generation of entanglement in the form of two-mode squeezed
+  states separated in bilayers of power-law interacting quantum
+  spin models.  
+  
+  This extends the feasibility of two-mode squeezing to
+  generic power-law models, making it accessible in a significantly larger number of experimental platforms. In particular,
+  we show that finite-range interactions (α = 1,2,3) can
+  achieve the same amount of entanglement and squeezing as
+  infinite-range interactions (α = 0).  
+  
+  We further develop a Floquet protocol utilizing spatiotemporal control to engineer the spin-spin interactions. This has
+  a number of immediate benefits. It extends the applicability
+  of our results to models with Ising interactions in systems,
+  which may not naturally realize Heisenberg interactions. In
+  addition, the Floquet-engineered model achieves the optimal
+  Heisenberg scaling of the sensitivity, providing potentially
+  orders of magnitude improvements. Finally, it also allows one
+  to implement time reversal by reversing the interlayer spin-exchange interactions, which may be used for time-reversal
+  based metrological protocols.  
+  
+  This establishes spatiotemporally engineered interactions
+  adapted to the initial state and the desired dynamics as a viable
+  pathway to unlocking significant quantum advantage beyond
+  that present in naturally occurring interactions. It highlights
+  the great potential in making full use of the control inherent in
+  state-of-the-art current experimental platforms realizing fully
+  controllable quantum spin systems for entanglement generation and quantum sensing.
+</details>  
 ![spin_squeezing](/images/spin_squeezing.png)  
 ### Quantum Transport in Dirac Fermions
 Analyzed phase transitions driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems.  
-Read More   
+<details>
+  <summary>Read more</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>  
+   
 ![quantum_transport](/images/quantum_transport.png)   
 
 ### Lead-Free Perovskite Solar Cells
 Achieved 31% efficiency in tandem solar cells, offering a sustainable alternative to lead-based designs.  
-Read More   
+<details>
+  <summary>Read more</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>  
+   
 ![solar_cell](/images/solar_cell.png)
 
 Technical Expertise
