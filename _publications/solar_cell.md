@@ -1,7 +1,7 @@
 ---
 title: "Optimization of a Pb-free all-perovskite tandem solar cell with 30.85% efficiency"
 collection: publications
-category: conferences
+category: manuscript
 permalink: /publication/solar_cell
 excerpt: 'Addressing the environmental challenges of lead-based perovskite solar cells, this study models and optimizes lead-free tandem solar cells using SCAPS software. By fine-tuning the optoelectronic properties of MAGeI3 and FASnI3 subcells, we achieve an impressive 31% efficiency. This work demonstrates the viability of eco-friendly alternatives for high-performance solar cells, paving the way for sustainable energy solutions.'
 date: 2022/1/1
