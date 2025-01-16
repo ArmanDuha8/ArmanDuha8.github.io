@@ -23,33 +23,38 @@ Featured Research Projects
 Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing.     
 <details>
   <summary>Read more</summary>
+  In classical sensing, the sensitivity of measurements improves with the number of particles or resources
+  (such as photons or atoms) as 1/√N, known as the Standard Quantum Limit (SQL). However, quantumenhanced sensing can leverage entangled states to surpass this      limit and in principle achieve a scaling
+  of 1/N, referred to as the Heisenberg limit, by maximizing the generation of metrologically useful
+  1entanglement. To that end, engineering the many-body dynamics of quantum systems to maximize
+  the generation of useful entanglement is a critical goal for fulfilling the promise of quantum advantage.
+  One particularly promising avenue is quantum spin systems, which can now be manipulated along the
+  complementary axes of time and space, opening up new scopes for engineering their quantum dynamics.<br>
+  In this work[1] with my supervisor Thomas
+  Bilitewski, we show that combining spatial and
+  temporal control enables Heisenberg-limited scaling of two-mode squeezing in power-law interacting spin models, currently accessible in a broad
+  range of quantum platforms. Specifically, I work
+  with a power-law interacting bilayer XXZ spin
+  model, shown schematically in Fig. 1(a). The role
+  of interlayer spin-exchange interactions ( V ⊥,AB
+  ij )
+  in this model is to create entangled pairs of flipped
+  spins, whereas the interlayer Ising interactions (
+  V z,AB
+  ij ) will energetically penalize the creation of
+  spin flips. We use Floquet pulse-sequence to engineer spin-spin interactions adapted to spatially
+  structured states in bi-layers. This six-step layerdependent sequence is shown in Fig. 1(b). This
+  allows us to overcome limitations on the achievable squeezing, while also lifting restrictions on the
+  required interactions, making it accessible in a broader range of platforms.<br>
+  I performed extensive numerical calculations using a semiclassical phase-space method known as
+  discrete truncated Wigner approximation (dTWA) to simulate the quantum many-body nonequilibrium
+  dynamics of the spin model. I wrote my own Python scripts to model the appropriate bilayer and perform
+  numerical integration and ran the scripts on an HPC cluster using bash scripts.<br>
+  Our results demonstrate that Heisenberg scaling is achievable in this setting beyond the infiniterange interaction case, opening it up to the full range of        power-law interacting systems. Overall we
+  show that using spatiotemporal control to engineer the many-body dynamics unlocks the ultimate limit
+  of sensitivity in a variety of spin systems.
+
   
-  Our work demonstrates the scalable and robust
-  generation of entanglement in the form of two-mode squeezed
-  states separated in bilayers of power-law interacting quantum
-  spin models.    
-  This extends the feasibility of two-mode squeezing to
-  generic power-law models, making it accessible in a significantly larger number of experimental platforms. In particular,
-  we show that finite-range interactions (α = 1,2,3) can
-  achieve the same amount of entanglement and squeezing as
-  infinite-range interactions (α = 0).<br>
-  
-  We further develop a Floquet protocol utilizing spatiotemporal control to engineer the spin-spin interactions. This has
-  a number of immediate benefits. It extends the applicability
-  of our results to models with Ising interactions in systems,
-  which may not naturally realize Heisenberg interactions. In
-  addition, the Floquet-engineered model achieves the optimal
-  Heisenberg scaling of the sensitivity, providing potentially
-  orders of magnitude improvements. Finally, it also allows one
-  to implement time reversal by reversing the interlayer spin-exchange interactions, which may be used for time-reversal
-  based metrological protocols.    <br>
-  This establishes spatiotemporally engineered interactions
-  adapted to the initial state and the desired dynamics as a viable
-  pathway to unlocking significant quantum advantage beyond
-  that present in naturally occurring interactions. It highlights
-  the great potential in making full use of the control inherent in
-  state-of-the-art current experimental platforms realizing fully
-  controllable quantum spin systems for entanglement generation and quantum sensing.
 </details>  
 ![spin_squeezing](/images/spin_squeezing.png)  
 ### Quantum Transport in Dirac Fermions
