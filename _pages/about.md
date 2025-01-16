@@ -32,7 +32,8 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
   generic power-law models, making it accessible in a significantly larger number of experimental platforms. In particular,
   we show that finite-range interactions (α = 1,2,3) can
   achieve the same amount of entanglement and squeezing as
-  infinite-range interactions (α = 0).\
+  infinite-range interactions (α = 0).
+  \
   We further develop a Floquet protocol utilizing spatiotemporal control to engineer the spin-spin interactions. This has
   a number of immediate benefits. It extends the applicability
   of our results to models with Ising interactions in systems,
