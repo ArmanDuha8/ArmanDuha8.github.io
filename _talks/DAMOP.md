@@ -10,3 +10,4 @@ location: "Fort Worth, Texas"
 
 ---
 - [View Slides](Duha_N08_6.pptx)
+- [View Video](https://youtu.be/Dw9FYn1_3rE)
