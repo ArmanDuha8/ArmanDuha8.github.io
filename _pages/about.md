@@ -19,12 +19,14 @@ Research Interests
 
 Featured Research Projects
 ======
+
+
 ### Power-Law Interacting Spin Models
 Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing.     
 <details>
   <summary>Read more</summary>
   In classical sensing, the sensitivity of measurements improves with the number of particles or resources
-  (such as photons or atoms) as 1/√N, known as the Standard Quantum Limit (SQL). However, quantumenhanced sensing can leverage entangled states to surpass this      limit and in principle achieve a scaling
+  (such as photons or atoms) as 1/√N, known as the Standard Quantum Limit (SQL). However, quantum-enhanced sensing can leverage entangled states to surpass this      limit and in principle achieve a scaling
   of 1/N, referred to as the Heisenberg limit, by maximizing the generation of metrologically useful
   1entanglement. To that end, engineering the many-body dynamics of quantum systems to maximize
   the generation of useful entanglement is a critical goal for fulfilling the promise of quantum advantage.
@@ -43,41 +45,65 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
   V z,AB
   ij ) will energetically penalize the creation of
   spin flips. We use Floquet pulse-sequence to engineer spin-spin interactions adapted to spatially
-  structured states in bi-layers. This six-step layerdependent sequence is shown in Fig. 1(b). This
+  structured states in bi-layers. This six-step layer-dependent sequence is shown in Fig. 1(b). This
   allows us to overcome limitations on the achievable squeezing, while also lifting restrictions on the
   required interactions, making it accessible in a broader range of platforms.<br>
   I performed extensive numerical calculations using a semiclassical phase-space method known as
   discrete truncated Wigner approximation (dTWA) to simulate the quantum many-body nonequilibrium
   dynamics of the spin model. I wrote my own Python scripts to model the appropriate bilayer and perform
   numerical integration and ran the scripts on an HPC cluster using bash scripts.<br>
-  Our results demonstrate that Heisenberg scaling is achievable in this setting beyond the infiniterange interaction case, opening it up to the full range of        power-law interacting systems. Overall we
+  Our results demonstrate that Heisenberg scaling is achievable in this setting beyond the infinite range interaction case, opening it up to the full range of        power-law interacting systems. Overall we
   show that using spatiotemporal control to engineer the many-body dynamics unlocks the ultimate limit
   of sensitivity in a variety of spin systems.
+  ![spin_squeezing](/images/spin_squeezing.png)  
+
 
   
 </details>  
-![spin_squeezing](/images/spin_squeezing.png)  
+
+
+
+  
+Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models
+<details>
+<summary>Read more</summary>
+  In our previous work discussed above, we showed that power-law interacting spin-1/2 XXZ models allow scalable generation of entanglement in the form of            two-mode squeezing and thus achieves
+  Heisenberg limited squeezing. Crucially, this depends on each spin layer behaving collectively, which
+  requires sufficiently strong intra-plane and sufficiently homogeneous inter-layer interactions.
+  In my current project with Thomas Bilitewski and in collaboration with our group’s postdoc Samuel
+  Begg, I focus on the transition from dynamics characterized by Heisenberg limited squeezing to nonfully collective behavior in 1D (spin ladder) and 2D (spin       bilayer) systems for a range of power-law
+  interaction exponents. We identify a universal scaling of the generated squeezing in terms of system
+  parameters and identify distinct phases as a function of dimensionality, power-law exponent, and aspect
+  ratio of the system. We are currently at the manuscript preparation stage for this project.
+  This study offers a comprehensive framework for engineering collective quantum states in experimental platforms that realize power-law spin models, advancing      applications in quantum sensing and
+  simulation.
+</details>  
+
 ### Quantum Transport in Dirac Fermions
 Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems.  
 <details>
   <summary>Read more</summary>
   
-  In this paper, we have studied the transport properties of a
-  massive Dirac fermion in the simultaneous presence of scalar
-  potential disorder 1V and mass disorder 1M. Our numerical
-  calculations use the real space tight-binding model on a lattice
-  with on-site uncorrelated disorder developed by Tworzydło
-  et at. We study three different average masses, M¯ ,
-  which is interpreted as the band gap. In all three cases, despite
-  the band gap, we identify that a critical 1V ∗(M¯ ) exists above
-  which the system can no longer be an insulator for any 1M.
-  The results support the idea of band gap suppression by onsite Coulomb potential. For 1V < 1V ∗, the system can be in an
-  insulating or metallic phase, depending on the 1M value. As
-  1M increases, the system exhibits an insulator-to-metal transition at a critical value 1M∗(M¯ , 1V ). We have numerically
-  estimated the critical values, 1V ∗, and 1M∗, for different
-  M¯ values. Our work demonstrates the interdependent way
-  different types of disorders can affect the phases accessible
-  to a massive Dirac fermion system.
+  Two-dimensional Dirac fermions, particularly those found in topological materials, have promising applications in areas like spintronics, quantum computing,       and optoelectronics due to robust surface
+  conducting states with Dirac fermions that are protected against perturbations, allowing for highly
+  efficient charge and spin transport with minimal dissipation. On the other hand, the unique nature of
+  Dirac fermions can lead to unusual quantum transport phenomena, including quantized conductance
+  and absence of metal-insulator transition under certain disorder types.<br>
+  In this project, with my co-advisor Mario Borunda, I analyzed how the combination of scalar
+  potential and mass disorder affects the transport properties of Dirac fermions. Using a tight-binding
+  model on a lattice with uncorrelated on-site disorder, I calculated the conductivity from the transmission
+  eigenvalues via the Landauer formula. For this, I wrote my own Mathematica scripts that model the
+  lattice structure and calculate the eigenvalues.<br>
+  Our results demonstrate that combining these two types of disorder leads to rich phase behavior,
+  including insulating, scale-invariant, and metallic phases. The phases emerge at critical values of scalar
+  potential and random mass (gap) disorder. Such disorders can be engineered by controlling the sample’s
+  charge fluctuation which depends on the level of impurity. For multilayer systems like bilayer graphene
+  or graphene on h-BN, the unprecedented precision in controlling twist angle and interlayer distance
+  enables fine-tuning of interlayer coupling, which, along with gate voltage, determines the mass disorder.<br>
+  Motivated by these experimentally realizable controls, I investigated a broad disorder landscape,
+  identifying the critical disorder strengths at which the phase transitions occur. Our work highlights
+  the interdependent way different types of disorders can affect the phases accessible to a massive Dirac
+  fermion system and how tuning the disorders can control its transport behavior.
 </details>  
    
 ![quantum_transport](/images/quantum_transport.png)   
@@ -85,32 +111,18 @@ Phase transitions in topological material driven by scalar and mass disorder, un
 ### Lead-Free Perovskite Solar Cells
 High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs.  
 <details>
-  In this study, the numerical simulation of a monolithic 2-terminal allperovskite tandem solar cell has been analyzed. The electron affinity of
-  the electron and hole transport layers, the cross-section of defects, and
-  the thickness of each component were varied using the SCAPS-1D solar
-  cell simulator to understand their effect on the PCE. The simulation of
-  the tandem device was done with the bottom subcell being illuminated
-  with the light filtered by the top subcell, thus ensuring a realistic anal­ysis. Given the current matching condition, our simulation results
-  showed that the JSC of the tandem device is limited by the JSC of the
-  bottom subcell. Thinning of the top subcell is necessary to match the
-  current across the device. While the JSC of the tandem device is smaller
-  than the currents of the optimized individual subcells, a high VOC of
-  2.63 V in the tandem device results in a significantly higher PCE of
-  30.85% compared to that of individual subcells. <br>
-  The optimal thickness of the subcells found was 1.6 μm and 983 nm.
-  The calculated PCE for those thicknesses will be higher than experi­
-  mental values, given that the calculations consider only the dominant
-  scattering channel, trap defects at the interface, and ignore scattering at
-  grain boundaries. However, if we reduce the thickness of both cells to be
-  below 1 μm, we still see a large PCE. For instance, when the thickness of
-  the FASnI3 is set to 1 μm, the current matching condition requires the
-  layer MAGeI3 to be 961 nm and the results we obtain are that the JSC is
-  14.6 mA/cm2, VOC is 2.63 V, FF is 80%, and PCE is reduced from the
-  optimal 30.85% to 30.73%. Overall, these results suggest that lead-free
-  perovskites can compete with lead-based devices in all-perovskite tan­
-  dem solar cells. Further improvement in the performance of the tandem
-  device can be achieved by utilizing a bottom subcell that can provide
-  higher JSC.
+  During the early stage of my Ph.D. before moving on to work with topological materials and spin
+  models, I worked on numerically simulating solar cells and their optimization.<br>
+  In this project[3] under the supervision of my co-advisor Mario Borunda, I used a numerical solar
+  cell simulation tool, SCAPS, which solves the Poisson equation and the continuity equations for charge
+  carriers (electrons and holes) to compute the electrostatics and transport properties within the solar cell.
+  I modeled a tandem solar cell consisting of the perovskite subcells, MAGeI3 and FASnI3. Perovskite solar
+  cells (PSCs) have gained significant attention in recent years due to their rapid efficiency improvements,
+  cost-effectiveness, and versatility in parameter tuning. However, some of the best-performing perovskite
+  materials contain lead, raising concerns about environmental impact and toxicity.<br>
+  I addressed this challenge by working with lead-free perovskites and performing extensive numerical
+  simulations to explore the parameter space of optoelectrical properties such as band gap, charge mobility, dielectric permittivity, etc. Our results show that     after optimization, 31% efficiency is reached,
+  suggesting lead-free perovskites can compete with lead-based devices.
 </details>  
    
 ![solar_cell](/images/solar_cell.png)
