@@ -55,12 +55,12 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
   Our results demonstrate that Heisenberg scaling is achievable in this setting beyond the infinite range interaction case, opening it up to the full range of        power-law interacting systems. Overall we
   show that using spatiotemporal control to engineer the many-body dynamics unlocks the ultimate limit
   of sensitivity in a variety of spin systems.
-  ![spin_squeezing](/images/spin_squeezing.png)  
+  
 
 
   
 </details>  
-
+![spin_squeezing](/images/spin_squeezing.png)  
 
 
   
