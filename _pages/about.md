@@ -33,16 +33,16 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
   we show that finite-range interactions (α = 1,2,3) can
   achieve the same amount of entanglement and squeezing as
   infinite-range interactions (α = 0).<br>
-  \
+  
   We further develop a Floquet protocol utilizing spatiotemporal control to engineer the spin-spin interactions. This has
   a number of immediate benefits. It extends the applicability
   of our results to models with Ising interactions in systems,
   which may not naturally realize Heisenberg interactions. In
   addition, the Floquet-engineered model achieves the optimal
   Heisenberg scaling of the sensitivity, providing potentially
-  orders of magnitude improvements. Finally, it also allows one<br>
+  orders of magnitude improvements. Finally, it also allows one
   to implement time reversal by reversing the interlayer spin-exchange interactions, which may be used for time-reversal
-  based metrological protocols.    \
+  based metrological protocols.    <br>
   This establishes spatiotemporally engineered interactions
   adapted to the initial state and the desired dynamics as a viable
   pathway to unlocking significant quantum advantage beyond
@@ -91,7 +91,7 @@ High-efficiency perovskite tandem solar cell, offering a sustainable alternative
   current across the device. While the JSC of the tandem device is smaller
   than the currents of the optimized individual subcells, a high VOC of
   2.63 V in the tandem device results in a significantly higher PCE of
-  30.85% compared to that of individual subcells.   \ 
+  30.85% compared to that of individual subcells. <br>
   The optimal thickness of the subcells found was 1.6 μm and 983 nm.
   The calculated PCE for those thicknesses will be higher than experi­
   mental values, given that the calculations consider only the dominant
