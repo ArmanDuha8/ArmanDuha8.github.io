@@ -32,7 +32,7 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
   generic power-law models, making it accessible in a significantly larger number of experimental platforms. In particular,
   we show that finite-range interactions (α = 1,2,3) can
   achieve the same amount of entanglement and squeezing as
-  infinite-range interactions (α = 0).
+  infinite-range interactions (α = 0).<br>
   \
   We further develop a Floquet protocol utilizing spatiotemporal control to engineer the spin-spin interactions. This has
   a number of immediate benefits. It extends the applicability
@@ -40,7 +40,7 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
   which may not naturally realize Heisenberg interactions. In
   addition, the Floquet-engineered model achieves the optimal
   Heisenberg scaling of the sensitivity, providing potentially
-  orders of magnitude improvements. Finally, it also allows one
+  orders of magnitude improvements. Finally, it also allows one<br>
   to implement time reversal by reversing the interlayer spin-exchange interactions, which may be used for time-reversal
   based metrological protocols.    \
   This establishes spatiotemporally engineered interactions
