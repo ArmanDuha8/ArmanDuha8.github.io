@@ -20,7 +20,7 @@ Research Interests
 Featured Research Projects
 ======
 ### Power-Law Interacting Spin Models
-Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering.   
+Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing.     
 <details>
   <summary>Read more</summary>
   
@@ -32,7 +32,7 @@ Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models u
   generic power-law models, making it accessible in a significantly larger number of experimental platforms. In particular,
   we show that finite-range interactions (α = 1,2,3) can
   achieve the same amount of entanglement and squeezing as
-  infinite-range interactions (α = 0).   
+  infinite-range interactions (α = 0).   \
   We further develop a Floquet protocol utilizing spatiotemporal control to engineer the spin-spin interactions. This has
   a number of immediate benefits. It extends the applicability
   of our results to models with Ising interactions in systems,
@@ -41,7 +41,7 @@ Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models u
   Heisenberg scaling of the sensitivity, providing potentially
   orders of magnitude improvements. Finally, it also allows one
   to implement time reversal by reversing the interlayer spin-exchange interactions, which may be used for time-reversal
-  based metrological protocols.    
+  based metrological protocols.    \
   This establishes spatiotemporally engineered interactions
   adapted to the initial state and the desired dynamics as a viable
   pathway to unlocking significant quantum advantage beyond
@@ -52,7 +52,7 @@ Demonstrated Heisenberg-limited entanglement generation in spin-1/2 XXZ models u
 </details>  
 ![spin_squeezing](/images/spin_squeezing.png)  
 ### Quantum Transport in Dirac Fermions
-Analyzed phase transitions driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems.  
+Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems.  
 <details>
   <summary>Read more</summary>
   
@@ -77,21 +77,20 @@ Analyzed phase transitions driven by scalar and mass disorder, uncovering rich t
 ![quantum_transport](/images/quantum_transport.png)   
 
 ### Lead-Free Perovskite Solar Cells
-Achieved 31% efficiency in tandem solar cells, offering a sustainable alternative to lead-based designs.  
+High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs.  
 <details>
   In this study, the numerical simulation of a monolithic 2-terminal allperovskite tandem solar cell has been analyzed. The electron affinity of
   the electron and hole transport layers, the cross-section of defects, and
   the thickness of each component were varied using the SCAPS-1D solar
   cell simulator to understand their effect on the PCE. The simulation of
   the tandem device was done with the bottom subcell being illuminated
-  with the light filtered by the top subcell, thus ensuring a realistic anal­
-  ysis. Given the current matching condition, our simulation results
+  with the light filtered by the top subcell, thus ensuring a realistic anal­ysis. Given the current matching condition, our simulation results
   showed that the JSC of the tandem device is limited by the JSC of the
   bottom subcell. Thinning of the top subcell is necessary to match the
   current across the device. While the JSC of the tandem device is smaller
   than the currents of the optimized individual subcells, a high VOC of
   2.63 V in the tandem device results in a significantly higher PCE of
-  30.85% compared to that of individual subcells.    
+  30.85% compared to that of individual subcells.   \ 
   The optimal thickness of the subcells found was 1.6 μm and 983 nm.
   The calculated PCE for those thicknesses will be higher than experi­
   mental values, given that the calculations consider only the dominant
@@ -117,23 +116,3 @@ Technical Expertise
 - **Machine Learning:** Symbolic regression for materials science
 - **Tools:** Density Functional Theory (DFT), molecular dynamics, HPC clusters
 
-Create content & metadata
-------
-
-I am actively seeking opportunities to apply my expertise in quantum physics and computational techniques in academia, national labs, or industry settings. If you're interested in collaboration or have opportunities that align with my background, feel free to reach out via email or LinkedIn.
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
