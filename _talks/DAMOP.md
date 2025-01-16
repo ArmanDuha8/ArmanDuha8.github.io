@@ -9,4 +9,4 @@ location: "Fort Worth, Texas"
 
 
 ---
-- [View Slides](files/Duha_N08_6.pptx)
+- [View Slides](Duha_N08_6.pptx)
