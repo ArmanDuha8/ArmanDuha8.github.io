@@ -12,6 +12,7 @@ Currently pursuing my Ph.D. in Physics at Oklahoma State University, I aim to br
 
 Research Interests
 ======
+- **Machine Learning:** Symbolic regression-based modeling for predicting material properties. 
 - **Quantum Many-Body Dynamics:** Studying out-of-equilibrium phases, entanglement generation, and quantum-enhanced sensing.
 - **Quantum Simulation:** Leveraging ultra-cold atoms and Floquet-engineered spin systems for innovative quantum platforms.
 - **Topological Materials:** Exploring transport phenomena in 2D materials, novel phases of matter, and quantum computing.
@@ -21,8 +22,33 @@ Featured Research Projects
 ======
 
 
-### Power-Law Interacting Spin Models
-Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing.     
+### Machine Learning-Driven Analytical Models for Materials Science
+*Machine Learning-Driven Analytical Models for Threshold Displacement Energy
+Prediction in Materials*     
+<details>
+  <summary>Read more</summary>
+  Understanding how materials respond to radiation is crucial for applications in nuclear reactors, spacecraft, and radiation shielding. The threshold 
+  displacement energy (Ed), which quantifies the minimum energy required to create a stable defect in a material, plays a key role in predicting radiation damage. 
+  However, conventional methods to determine Ed rely on expensive experiments and computationally intensive simulations.
+
+  In this work, we leverage the Sure Independence Screening and Sparsifying Operator (SISSO) machine learning algorithm to develop analytical models for 
+  predicting Ed using fundamental material properties. Our models achieve high accuracy for monoatomic materials, outperforming existing empirical approaches. 
+  While predictions for polyatomic materials reveal challenges due to data complexity, they highlight opportunities for further improvements with expanded 
+  datasets.
+
+  A key finding of our study is the identification of cohesive energy and melting temperature as dominant factors influencing Ed, providing insights into defect 
+  formation and material resilience. By offering a data-driven approach to estimating radiation damage, this work lays the groundwork for accelerated material 
+  screening and design in radiation-hardened environments.
+  
+
+
+  
+</details>  
+![ML](/images/ML.png)  
+
+
+### Quantum Simulation and Quantum-Enhanced Sensing
+*Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing*     
 <details>
   <summary>Read more</summary>
   In classical sensing, the sensitivity of measurements improves with the number of particles or resources
@@ -64,7 +90,7 @@ Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet 
 
 
   
-Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models
+*Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models*
 <details>
 <summary>Read more</summary>
   In our previous work discussed above, we showed that power-law interacting spin-1/2 XXZ models allow scalable generation of entanglement in the form of            two-mode squeezing and thus achieves
@@ -80,7 +106,7 @@ Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models
 </details>  
 
 ### Quantum Transport in Dirac Fermions
-Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems.  
+*Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems*  
 <details>
   <summary>Read more</summary>
   
@@ -109,7 +135,7 @@ Phase transitions in topological material driven by scalar and mass disorder, un
 ![quantum_transport](/images/quantum_transport.png)   
 
 ### Lead-Free Perovskite Solar Cells
-High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs.  
+*High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs*  
 <details>
   During the early stage of my Ph.D. before moving on to work with topological materials and spin
   models, I worked on numerically simulating solar cells and their optimization.<br>
