@@ -5,9 +5,9 @@ category: manuscripts
 permalink: /publication/Two-mode
 excerpt: 'The threshold displacement energy (E<sub>d</sub>) is a fundamental parameter for understanding radiation damage in materials, yet its determination 
 typically relies on costly experiments or computationally expensive simulations. In this work, we employ the Sure Independence Screening and Sparsifying 
-Operator (SISSO) machine learning method to develop analytical models that predict $E_d$ based on fundamental material properties. 
+Operator (SISSO) machine learning method to develop analytical models that predict E<sub>d</sub> based on fundamental material properties. 
 Our models achieve high accuracy for monoatomic materials, outperforming traditional empirical approaches. For polyatomic systems, we identify key challenges and 
-highlight pathways for improvement with enhanced datasets. This study identifies cohesive energy and melting temperature as the dominant descriptors of $E_d$, 
+highlight pathways for improvement with enhanced datasets. This study identifies cohesive energy and melting temperature as the dominant descriptors of E<sub>d</sub>, 
 providing a predictive framework for radiation damage assessment in diverse materials.'
 date: 2025/2
 venue: 'arXiv'
@@ -17,19 +17,19 @@ citation: 'Duque, Rosty B. Martinez, Arman Duha, and Mario F. Borunda.
 ---
 This work demonstrates the potential of machine learning, specifically the Sure Independence Screening and
 Sparsifying Operator (SISSO) method, to develop analytical expressions for predicting threshold displacement
-energy ($E_d$) values in materials. The models constructed
+energy (E<sub>d</sub>) values in materials. The models constructed
 using SISSO outperform traditional approaches like that
 used in Konobeyev et al. in terms of accuracy and
 generalizability, leveraging fundamental material properties. These results provide a valuable tool for estimating
-$E_d$ in monoatomic materials, reducing the reliance on
+E<sub>d</sub> in monoatomic materials, reducing the reliance on
 complex experiments and simulations.<br>
 
 For polyatomic materials, while the SISSO models
 showed limited success due to the inherent complexity and diversity of the data, incorporating improved
-datasets and additional features could enhance their predictive capability. The effective $E_d$ formulations for complex materials were previously constrained by the availability of known monoatomic $E_d$ values, considering our
+datasets and additional features could enhance their predictive capability. The effective E<sub>d</sub> formulations for complex materials were previously constrained by the availability of known monoatomic E<sub>d</sub> values, considering our
 monoatomic predictions, this method offers a more robust pragmatic path forward. This study emphasizes the
 importance of cohesive energy and melting temperature
-as key contributors to $E_d$. These parameters are strongly
+as key contributors to E<sub>d</sub>. These parameters are strongly
 related to the atomic bonding strength within the solid’s
 structure, reaffirming their role in defect formation dynamics.    <br>
 Future work should focus on expanding datasets, exploring temperature dependence, and refining models to
