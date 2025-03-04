@@ -3,11 +3,11 @@ title: "Machine Learning-Driven Analytical Models for Threshold Displacement Ene
 collection: publications
 category: manuscripts
 permalink: /publication/Two-mode
-excerpt: 'The threshold displacement energy (Ed) is a fundamental parameter for understanding radiation damage in materials, yet its determination 
+excerpt: 'The threshold displacement energy ($E_d$) is a fundamental parameter for understanding radiation damage in materials, yet its determination 
 typically relies on costly experiments or computationally expensive simulations. In this work, we employ the Sure Independence Screening and Sparsifying 
-Operator (SISSO) machine learning method to develop analytical models that predict (Ed) based on fundamental material properties. 
+Operator (SISSO) machine learning method to develop analytical models that predict $E_d$ based on fundamental material properties. 
 Our models achieve high accuracy for monoatomic materials, outperforming traditional empirical approaches. For polyatomic systems, we identify key challenges and 
-highlight pathways for improvement with enhanced datasets. This study identifies cohesive energy and melting temperature as the dominant descriptors of (Ed), 
+highlight pathways for improvement with enhanced datasets. This study identifies cohesive energy and melting temperature as the dominant descriptors of $E_d$, 
 providing a predictive framework for radiation damage assessment in diverse materials.'
 date: 2025/2
 venue: 'arXiv'
