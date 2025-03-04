@@ -21,7 +21,7 @@ energy ($E_d$) values in materials. The models constructed
 using SISSO outperform traditional approaches like that
 used in Konobeyev et al. in terms of accuracy and
 generalizability, leveraging fundamental material properties. These results provide a valuable tool for estimating
-Ed in monoatomic materials, reducing the reliance on
+$E_d$ in monoatomic materials, reducing the reliance on
 complex experiments and simulations.<br>
 
 For polyatomic materials, while the SISSO models
