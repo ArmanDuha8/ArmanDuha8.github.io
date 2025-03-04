@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/solar
 venue: "APS March Meeting 2022"
-date: 2022-03
+date: 2022-03-15
 location: "Chicago, Illinois"
 
 
