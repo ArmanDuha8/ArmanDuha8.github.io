@@ -17,7 +17,7 @@ citation: 'Duque, Rosty B. Martinez, Arman Duha, and Mario F. Borunda.
 ---
 This work demonstrates the potential of machine learning, specifically the Sure Independence Screening and
 Sparsifying Operator (SISSO) method, to develop analytical expressions for predicting threshold displacement
-energy (Ed) values in materials. The models constructed
+energy ($E_d$) values in materials. The models constructed
 using SISSO outperform traditional approaches like that
 used in Konobeyev et al. in terms of accuracy and
 generalizability, leveraging fundamental material properties. These results provide a valuable tool for estimating
@@ -26,10 +26,10 @@ complex experiments and simulations.<br>
 
 For polyatomic materials, while the SISSO models
 showed limited success due to the inherent complexity and diversity of the data, incorporating improved
-datasets and additional features could enhance their predictive capability. The effective Ed formulations for complex materials were previously constrained by the availability of known monoatomic Ed values, considering our
+datasets and additional features could enhance their predictive capability. The effective $E_d$ formulations for complex materials were previously constrained by the availability of known monoatomic $E_d$ values, considering our
 monoatomic predictions, this method offers a more robust pragmatic path forward. This study emphasizes the
 importance of cohesive energy and melting temperature
-as key contributors to Ed. These parameters are strongly
+as key contributors to $E_d$. These parameters are strongly
 related to the atomic bonding strength within the solid’s
 structure, reaffirming their role in defect formation dynamics.    <br>
 Future work should focus on expanding datasets, exploring temperature dependence, and refining models to
