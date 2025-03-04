@@ -22,8 +22,8 @@ Featured Research Projects
 ======
 
 
-### Machine Learning-Driven Analytical Models for Materials Science
-*Machine Learning-Driven Analytical Models for Threshold Displacement Energy
+### 1. Machine Learning-Driven Analytical Models for Materials Science
+*1.1 Machine Learning-Driven Analytical Models for Threshold Displacement Energy
 Prediction in Materials*     
 <details>
   <summary>Read more</summary>
@@ -47,8 +47,8 @@ Prediction in Materials*
 ![ML](/images/ML.png)  
 
 
-### Quantum Simulation and Quantum-Enhanced Sensing
-*Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing*     
+### 2. Quantum Simulation and Quantum-Enhanced Sensing
+*2.1 Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing*     
 <details>
   <summary>Read more</summary>
   In classical sensing, the sensitivity of measurements improves with the number of particles or resources
@@ -90,7 +90,7 @@ Prediction in Materials*
 
 
   
-*Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models*
+*2.2 Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models*
 <details>
 <summary>Read more</summary>
   In our previous work discussed above, we showed that power-law interacting spin-1/2 XXZ models allow scalable generation of entanglement in the form of            two-mode squeezing and thus achieves
@@ -105,8 +105,8 @@ Prediction in Materials*
   simulation.
 </details>  
 
-### Quantum Transport in Dirac Fermions
-*Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems*  
+### 3. Quantum Transport in Dirac Fermions
+*3.1 Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems*  
 <details>
   <summary>Read more</summary>
   
@@ -134,8 +134,8 @@ Prediction in Materials*
    
 ![quantum_transport](/images/quantum_transport.png)   
 
-### Lead-Free Perovskite Solar Cells
-*High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs*  
+### 4. Lead-Free Perovskite Solar Cells
+*4.1 High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs*  
 <details>
   During the early stage of my Ph.D. before moving on to work with topological materials and spin
   models, I worked on numerically simulating solar cells and their optimization.<br>
