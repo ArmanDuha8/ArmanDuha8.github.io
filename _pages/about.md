@@ -7,16 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational condensed matter and AMO physicist with a passion for exploring quantum many-body dynamics, quantum simulation, and topological materials. My research focuses on advancing quantum technologies through a combination of analytical and numerical approaches, leveraging cutting-edge computational tools to tackle complex problems in quantum transport, entanglement generation, and material optimization.
-Currently pursuing my Ph.D. in Physics at Oklahoma State University, I aim to bridge theory and experiment to unlock new possibilities in quantum sensing, information, and materials science.
+I am a computational physicist specializing in materials modeling, data-driven simulation, and quantum system dynamics. My research integrates physics-based theory with high-performance computing and machine learning to address challenges in materials reliability, defect behavior, and electronic transport. Currently pursuing a Ph.D. in Physics at Oklahoma State University, I focus on simulating non-equilibrium phenomena in quantum spin systems, predicting threshold displacement energies in radiation environments, and modeling defect-limited transport in disordered two-dimensional materials. I also work on device-level simulations to optimize perovskite solar cells for high-efficiency and space-resilient applications. With a passion for bridging theory and application, I aim to contribute to advances in materials design, semiconductor device engineering, and predictive modeling for emerging technologies.
 
-Research Interests
+Technical Skills
 ======
-- **Machine Learning:** Symbolic regression-based modeling for predicting material properties. 
-- **Quantum Many-Body Dynamics:** Studying out-of-equilibrium phases, entanglement generation, and quantum-enhanced sensing.
-- **Quantum Simulation:** Leveraging ultra-cold atoms and Floquet-engineered spin systems for innovative quantum platforms.
-- **Topological Materials:** Exploring transport phenomena in 2D materials, novel phases of matter, and quantum computing.
-- **Material Optimization:** Performing first-principles calculations, DFT molecular dynamics for renewable energy sources.
+- **Programming & Scientific Computing:** Python, C++, Mathematica, MATLAB, Bash/Shell scripting
+- **Numerical Modeling:** Differential equation solvers, Fourier transforms, and time-evolution algorithms
+- **High-Performance Computing (HPC):** Experience with HPC clusters, batch scheduling systems (Slurm), parallelization concepts (MPI), job automation
+- **Data Science & ML:** Scikit-learn, NumPy, SciPy, Pandas, Matplotlib, Seaborn, symbolic regression, feature extraction, compressed sensing
+- **Materials Modeling Tools:** DFT, molecular dynamics, UCSF ChimeraX (molecular visualization)
+- **Development Tools:** Git, Jupyter Notebooks, Microsoft Excel, Latex
+
 
 Featured Research Projects
 ======
@@ -152,11 +153,4 @@ Prediction in Materials*
 </details>  
    
 ![solar_cell](/images/solar_cell.png)
-
-Technical Expertise
-======
-- **Programming:** Python, Mathematica, C++
-- **Quantum Simulation:** Discrete truncated Wigner approximation, 2D Dirac fermions modeling
-- **Machine Learning:** Symbolic regression for materials science
-- **Tools:** Density Functional Theory (DFT), molecular dynamics, HPC clusters
 
