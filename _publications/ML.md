@@ -2,18 +2,18 @@
 title: "Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials"
 collection: publications
 category: manuscripts
-permalink: /publication/Two-mode
+permalink: /publication/threshold-displacement-energy
 excerpt: 'The threshold displacement energy (E<sub>d</sub>) is a fundamental parameter for understanding radiation damage in materials, yet its determination 
 typically relies on costly experiments or computationally expensive simulations. In this work, we employ the Sure Independence Screening and Sparsifying 
 Operator (SISSO) machine learning method to develop analytical models that predict E<sub>d</sub> based on fundamental material properties. 
 Our models achieve high accuracy for monoatomic materials, outperforming traditional empirical approaches. For polyatomic systems, we identify key challenges and 
 highlight pathways for improvement with enhanced datasets. This study identifies cohesive energy and melting temperature as the dominant descriptors of E<sub>d</sub>, 
 providing a predictive framework for radiation damage assessment in diverse materials.'
-date: 2025/2
-venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2502.01813'
+date: 2025-08-29
+venue: 'Physical Review Materials'
+paperurl: 'https://doi.org/10.1103/cf3q-b843'
 citation: 'Duque, Rosty B. Martinez, Arman Duha, and Mario F. Borunda. 
-"Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials." arXiv preprint arXiv:2502.01813 (2025).'
+"Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials." Physical Review Materials 9, 085002 (2025).'
 ---
 This work demonstrates the potential of machine learning, specifically the Sure Independence Screening and
 Sparsifying Operator (SISSO) method, to develop analytical expressions for predicting threshold displacement
