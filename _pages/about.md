@@ -2,149 +2,60 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a postdoctoral researcher in Physics at Oklahoma State University, working with Thomas Bilitewski. I completed my Ph.D. in Physics at OSU in December 2025. My research focuses on quantum many-body dynamics, entanglement generation, and quantum simulation, with particular interest in spin squeezing and quantum-enhanced sensing. I combine analytical methods with large-scale numerical simulations to understand how interactions and geometry shape the dynamics of quantum spin systems.
+I am a computational physicist working at the intersection of quantum simulation, scientific computing, and machine learning. I build numerical models and simulation workflows to study complex physical systems, test analytical predictions, and connect model parameters to observable behavior. My work spans quantum many-body dynamics, electronic transport, and interpretable models for materials properties.
 
-My broader work includes transport in disordered Dirac materials and machine-learning models for materials properties. I am interested in connecting these theoretical and computational tools to experimentally relevant quantum systems.
+I am currently a postdoctoral researcher at Oklahoma State University, working with Thomas Bilitewski, and completed my Ph.D. in Physics at OSU in December 2025. My core research is on entanglement generation and quantum-enhanced sensing. Current projects also include Hamiltonian learning with graph and convolutional neural networks and resource-cost analysis for digital quantum simulation. I am interested in industry research roles where physics-based modeling, reliable numerical methods, and scientific machine learning help solve practical problems.
 
 Technical Skills
 ======
-- **Programming & Scientific Computing:** Python, Julia, C++, Mathematica, MATLAB, Bash/Shell scripting
-- **Numerical Modeling:** Differential equation solvers, Fourier transforms, and time-evolution algorithms
-- **High-Performance Computing (HPC):** Experience with HPC clusters, batch scheduling systems (Slurm), parallelization concepts (MPI), job automation
-- **Data Science & ML:** Scikit-learn, NumPy, SciPy, Pandas, Matplotlib, Seaborn, symbolic regression, feature extraction, compressed sensing
-- **Materials Modeling Tools:** DFT, molecular dynamics, UCSF ChimeraX (molecular visualization)
-- **Development Tools:** Git, Jupyter Notebooks, Microsoft Excel, Latex
+- **Scientific programming:** Python, Julia, C/C++, Mathematica, MATLAB, Bash; NumPy, SciPy, Pandas, HDF5, Git, Linux
+- **Numerical modeling:** Time evolution, differential equation solvers, exact diagonalization, semiclassical phase-space methods, Monte Carlo, finite-size scaling, and analytical benchmarks
+- **High-performance computing:** Large-scale parameter sweeps, Slurm workflows, MPI, and GPU-accelerated C++ simulations
+- **Scientific machine learning:** PyTorch, scikit-learn, GNN/CNN Hamiltonian learning, SISSO symbolic regression, random forests, and model validation
+- **Quantum simulation and sensing:** Spin models, Floquet engineering, entanglement dynamics, spin squeezing, and Hamiltonian resource-cost modeling
 
-
-Featured Research Projects
+Selected Projects
 ======
 
+### Quantum dynamics and simulation at scale
+I develop simulations of interacting spin systems to understand when useful entanglement can be generated and how it scales with system size. My work combines analytical spin-wave and Bogoliubov calculations with dTWA/GdTWA simulations, exact dynamics, and selected tensor-network benchmarks.
 
-### 1. Machine Learning-Driven Analytical Models for Materials Science
-*1.1 Machine Learning-Driven Analytical Models for Threshold Displacement Energy
-Prediction in Materials*     
 <details>
-  <summary>Read more</summary>
-  Understanding how materials respond to radiation is crucial for applications in nuclear reactors, spacecraft, and radiation shielding. The threshold 
-  displacement energy (Ed), which quantifies the minimum energy required to create a stable defect in a material, plays a key role in predicting radiation damage. 
-  However, conventional methods to determine Ed rely on expensive experiments and computationally intensive simulations.
+<summary>Research and methods</summary>
+My doctoral work included simulations of approximately 20,000 interacting spins and the design of layer-selective Floquet pulse sequences for two-mode squeezing. I use Python and Julia workflows on HPC clusters for time evolution, parameter sweeps, and finite-size scaling. The emphasis is on checking approximations against analytical and numerical benchmarks, not just running larger simulations.<br><br>
+Published results include <a href="https://doi.org/10.1103/PhysRevA.109.L061304">two-mode squeezing with Floquet-engineered interactions (PRA, 2024)</a>, <a href="https://doi.org/10.1103/7g55-lpff">nonequilibrium critical scaling (PRL, 2025)</a>, and <a href="https://doi.org/10.1103/py4q-klzp">universal squeezing transitions across lattice geometries and couplings (PRA, 2026)</a>. More recent collaborative work studies <a href="https://arxiv.org/abs/2610.02314">gap-protected squeezing in multilevel spins (preprint, 2026)</a>.
+</details>
 
-  In this work, we leverage the Sure Independence Screening and Sparsifying Operator (SISSO) machine learning algorithm to develop analytical models for 
-  predicting Ed using fundamental material properties. Our models achieve high accuracy for monoatomic materials, outperforming existing empirical approaches. 
-  While predictions for polyatomic materials reveal challenges due to data complexity, they highlight opportunities for further improvements with expanded 
-  datasets.
+![Quantum spin simulation and squeezing](/images/spin_squeezing.png)
 
-  A key finding of our study is the identification of cohesive energy and melting temperature as dominant factors influencing Ed, providing insights into defect 
-  formation and material resilience. By offering a data-driven approach to estimating radiation damage, this work lays the groundwork for accelerated material 
-  screening and design in radiation-hardened environments.
-  
+### Scientific machine learning
+I work on learning physical parameters from data and building interpretable predictive models. Current GNN/CNN work focuses on inferring Hamiltonian parameters from quantum-system data. In materials research, I co-developed symbolic-regression models for threshold displacement energies, the energy needed to displace an atom from its lattice site.
 
-
-  
-</details>  
-![ML](/images/ML.png)  
-
-
-### 2. Quantum Simulation and Quantum-Enhanced Sensing
-*2.1 Heisenberg-limited entanglement generation in spin-1/2 XXZ models using Floquet engineering for quantum-enhanced sensing*     
 <details>
-  <summary>Read more</summary>
-  In classical sensing, the sensitivity of measurements improves with the number of particles or resources
-  (such as photons or atoms) as 1/√N, known as the Standard Quantum Limit (SQL). However, quantum-enhanced sensing can leverage entangled states to surpass this      limit and in principle achieve a scaling
-  of 1/N, referred to as the Heisenberg limit, by maximizing the generation of metrologically useful
-  entanglement. To that end, engineering the many-body dynamics of quantum systems to maximize
-  the generation of useful entanglement is a critical goal for fulfilling the promise of quantum advantage.
-  One particularly promising avenue is quantum spin systems, which can now be manipulated along the
-  complementary axes of time and space, opening up new scopes for engineering their quantum dynamics.<br>
-  In this work[1] with my supervisor Thomas
-  Bilitewski, we show that combining spatial and
-  temporal control enables Heisenberg-limited scaling of two-mode squeezing in power-law interacting spin models, currently accessible in a broad
-  range of quantum platforms. Specifically, I work
-  with a power-law interacting bilayer XXZ spin
-  model, shown schematically in Fig. 1(a). The role
-  of interlayer spin-exchange interactions ( V ⊥,AB
-  ij )
-  in this model is to create entangled pairs of flipped
-  spins, whereas the interlayer Ising interactions (
-  V z,AB
-  ij ) will energetically penalize the creation of
-  spin flips. We use Floquet pulse-sequence to engineer spin-spin interactions adapted to spatially
-  structured states in bi-layers. This six-step layer-dependent sequence is shown in Fig. 1(b). This
-  allows us to overcome limitations on the achievable squeezing, while also lifting restrictions on the
-  required interactions, making it accessible in a broader range of platforms.<br>
-  I performed extensive numerical calculations using a semiclassical phase-space method known as
-  discrete truncated Wigner approximation (dTWA) to simulate the quantum many-body nonequilibrium
-  dynamics of the spin model. I wrote my own Python scripts to model the appropriate bilayer and perform
-  numerical integration and ran the scripts on an HPC cluster using bash scripts.<br>
-  Our results demonstrate that Heisenberg scaling is achievable in this setting beyond the infinite range interaction case, opening it up to the full range of        power-law interacting systems. Overall we
-  show that using spatiotemporal control to engineer the many-body dynamics unlocks the ultimate limit
-  of sensitivity in a variety of spin systems.
-  
+<summary>Research and methods</summary>
+The materials project used SISSO symbolic regression and random-forest comparisons to connect radiation-damage thresholds to material properties. We assessed predictive accuracy and found cohesive energy and melting temperature to be important descriptors. The work also identified limitations for more complex materials, where the available data did not support equally reliable predictions. See <a href="https://doi.org/10.1103/cf3q-b843">Physical Review Materials 9, 085002 (2025)</a>.<br><br>
+Hamiltonian learning is ongoing research, rather than a deployed product. I am interested in models that can be checked against known physics and tested beyond their training conditions.
+</details>
 
+![Interpretable machine learning for materials](/images/ML.png)
 
-  
-</details>  
-![spin_squeezing](/images/spin_squeezing.png)  
+### Electronic transport and device modeling
+I have modeled how disorder changes conductivity in two-dimensional Dirac systems and used numerical device simulation to explore lead-free tandem solar-cell designs.
 
-
-  
-*2.2 Nonequilibrium critical scaling and universal squeezing dynamics*
 <details>
-<summary>Read more</summary>
-  With Samuel E. Begg and Thomas Bilitewski, I studied the transition between collective dynamics with Heisenberg-limited squeezing and a partially collective regime in power-law interacting bilayer spin models. We identified distinct dynamical phases, universal scaling of the squeezing, and a divergent timescale. This work was published in <a href="https://doi.org/10.1103/7g55-lpff">Physical Review Letters 135, 150401 (2025)</a>.<br>
-  In subsequent work with Thomas Bilitewski, I tested this transition across lattice geometries, dimensions, and changes in microscopic couplings. Combining Bogoliubov analysis with discrete truncated Wigner simulations, we found consistent critical scaling across these settings. This study was published in <a href="https://doi.org/10.1103/py4q-klzp">Physical Review A 114, 032458 (2026)</a>.
-</details>  
+<summary>Research and methods</summary>
+For Dirac transport, I built GPU-accelerated C++ transfer-matrix simulations and studied the combined effects of scalar-potential and mass disorder. The resulting phase diagram distinguishes insulating, metallic, and scale-invariant transport regimes. See <a href="https://doi.org/10.1103/PhysRevB.110.094205">Physical Review B 110, 094205 (2024)</a>.<br><br>
+In earlier device-modeling work, I used SCAPS to solve coupled electrostatics and carrier-transport equations and sweep optoelectronic parameters in a lead-free perovskite tandem solar cell. The optimized design reached <strong>30.85% simulated efficiency</strong>; this was a numerical result, not a fabricated-device measurement. See <a href="https://doi.org/10.1016/j.optmat.2021.111891">Optical Materials 123, 111891 (2022)</a>.
+</details>
 
-### 3. Quantum Transport in Dirac Fermions
-*3.1 Phase transitions in topological material driven by scalar and mass disorder, uncovering rich transport behavior in 2D systems*  
-<details>
-  <summary>Read more</summary>
-  
-  Two-dimensional Dirac fermions, particularly those found in topological materials, have promising applications in areas like spintronics, quantum computing,       and optoelectronics due to robust surface
-  conducting states with Dirac fermions that are protected against perturbations, allowing for highly
-  efficient charge and spin transport with minimal dissipation. On the other hand, the unique nature of
-  Dirac fermions can lead to unusual quantum transport phenomena, including quantized conductance
-  and absence of metal-insulator transition under certain disorder types.<br>
-  In this project, with my co-advisor Mario Borunda, I analyzed how the combination of scalar
-  potential and mass disorder affects the transport properties of Dirac fermions. Using a tight-binding
-  model on a lattice with uncorrelated on-site disorder, I calculated the conductivity from the transmission
-  eigenvalues via the Landauer formula. For this, I wrote my own Mathematica scripts that model the
-  lattice structure and calculate the eigenvalues.<br>
-  Our results demonstrate that combining these two types of disorder leads to rich phase behavior,
-  including insulating, scale-invariant, and metallic phases. The phases emerge at critical values of scalar
-  potential and random mass (gap) disorder. Such disorders can be engineered by controlling the sample’s
-  charge fluctuation which depends on the level of impurity. For multilayer systems like bilayer graphene
-  or graphene on h-BN, the unprecedented precision in controlling twist angle and interlayer distance
-  enables fine-tuning of interlayer coupling, which, along with gate voltage, determines the mass disorder.<br>
-  Motivated by these experimentally realizable controls, I investigated a broad disorder landscape,
-  identifying the critical disorder strengths at which the phase transitions occur. Our work highlights
-  the interdependent way different types of disorders can affect the phases accessible to a massive Dirac
-  fermion system and how tuning the disorders can control its transport behavior.
-</details>  
-   
-![quantum_transport](/images/quantum_transport.png)   
+![Quantum transport in disordered systems](/images/quantum_transport.png)
 
-### 4. Lead-Free Perovskite Solar Cells
-*4.1 High-efficiency perovskite tandem solar cell, offering a sustainable alternative to lead-based designs*  
-<details>
-  During the early stage of my Ph.D. before moving on to work with topological materials and spin
-  models, I worked on numerically simulating solar cells and their optimization.<br>
-  In this project[3] under the supervision of my co-advisor Mario Borunda, I used a numerical solar
-  cell simulation tool, SCAPS, which solves the Poisson equation and the continuity equations for charge
-  carriers (electrons and holes) to compute the electrostatics and transport properties within the solar cell.
-  I modeled a tandem solar cell consisting of the perovskite subcells, MAGeI3 and FASnI3. Perovskite solar
-  cells (PSCs) have gained significant attention in recent years due to their rapid efficiency improvements,
-  cost-effectiveness, and versatility in parameter tuning. However, some of the best-performing perovskite
-  materials contain lead, raising concerns about environmental impact and toxicity.<br>
-  I addressed this challenge by working with lead-free perovskites and performing extensive numerical
-  simulations to explore the parameter space of optoelectrical properties such as band gap, charge mobility, dielectric permittivity, etc. Our results show that     after optimization, 31% efficiency is reached,
-  suggesting lead-free perovskites can compete with lead-based devices.
-</details>  
-   
-![solar_cell](/images/solar_cell.png)
+### Mathematical modeling with an engineering team
+During a mathematical modeling internship at Nettle LLC in 2025, I developed an optimization model and computational prototype for high-volume data flow in a distributed real-time database. The project involved working directly with an engineering team to translate a practical systems problem into a mathematical model.
 
+See my [publications](/publications/) for research papers and my [CV](/files/CV_Duha.pdf) for a fuller record of experience.
