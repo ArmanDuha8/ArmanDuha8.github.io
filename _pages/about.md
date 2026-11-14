@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational physicist specializing in materials modeling, data-driven simulation, and quantum system dynamics. My research integrates physics-based theory with high-performance computing and machine learning to address challenges in materials reliability, defect behavior, and electronic transport. Currently pursuing a Ph.D. in Physics at Oklahoma State University, I focus on simulating non-equilibrium phenomena in quantum spin systems, predicting threshold displacement energies in radiation environments, and modeling defect-limited transport in disordered two-dimensional materials. I also work on device-level simulations to optimize perovskite solar cells for high-efficiency and space-resilient applications. With a passion for bridging theory and application, I aim to contribute to advances in materials design, semiconductor device engineering, and predictive modeling for emerging technologies.
+I am a postdoctoral researcher in Physics at Oklahoma State University, working with Thomas Bilitewski. I completed my Ph.D. in Physics at OSU in December 2025. My research focuses on quantum many-body dynamics, entanglement generation, and quantum simulation, with particular interest in spin squeezing and quantum-enhanced sensing. I combine analytical methods with large-scale numerical simulations to understand how interactions and geometry shape the dynamics of quantum spin systems.
+
+My broader work includes transport in disordered Dirac materials and machine-learning models for materials properties. I am interested in connecting these theoretical and computational tools to experimentally relevant quantum systems.
 
 Technical Skills
 ======
-- **Programming & Scientific Computing:** Python, C++, Mathematica, MATLAB, Bash/Shell scripting
+- **Programming & Scientific Computing:** Python, Julia, C++, Mathematica, MATLAB, Bash/Shell scripting
 - **Numerical Modeling:** Differential equation solvers, Fourier transforms, and time-evolution algorithms
 - **High-Performance Computing (HPC):** Experience with HPC clusters, batch scheduling systems (Slurm), parallelization concepts (MPI), job automation
 - **Data Science & ML:** Scikit-learn, NumPy, SciPy, Pandas, Matplotlib, Seaborn, symbolic regression, feature extraction, compressed sensing
@@ -55,7 +57,7 @@ Prediction in Materials*
   In classical sensing, the sensitivity of measurements improves with the number of particles or resources
   (such as photons or atoms) as 1/√N, known as the Standard Quantum Limit (SQL). However, quantum-enhanced sensing can leverage entangled states to surpass this      limit and in principle achieve a scaling
   of 1/N, referred to as the Heisenberg limit, by maximizing the generation of metrologically useful
-  1entanglement. To that end, engineering the many-body dynamics of quantum systems to maximize
+  entanglement. To that end, engineering the many-body dynamics of quantum systems to maximize
   the generation of useful entanglement is a critical goal for fulfilling the promise of quantum advantage.
   One particularly promising avenue is quantum spin systems, which can now be manipulated along the
   complementary axes of time and space, opening up new scopes for engineering their quantum dynamics.<br>
@@ -91,19 +93,11 @@ Prediction in Materials*
 
 
   
-*2.2 Universal Scaling of Two-mode Squeezing in Power-Law Interacting Spin Models*
+*2.2 Nonequilibrium critical scaling and universal squeezing dynamics*
 <details>
 <summary>Read more</summary>
-  In our previous work discussed above, we showed that power-law interacting spin-1/2 XXZ models allow scalable generation of entanglement in the form of            two-mode squeezing and thus achieves
-  Heisenberg limited squeezing. Crucially, this depends on each spin layer behaving collectively, which
-  requires sufficiently strong intra-plane and sufficiently homogeneous inter-layer interactions.
-  In my current project with Thomas Bilitewski and in collaboration with our group’s postdoc Samuel
-  Begg, I focus on the transition from dynamics characterized by Heisenberg limited squeezing to nonfully collective behavior in 1D (spin ladder) and 2D (spin       bilayer) systems for a range of power-law
-  interaction exponents. We identify a universal scaling of the generated squeezing in terms of system
-  parameters and identify distinct phases as a function of dimensionality, power-law exponent, and aspect
-  ratio of the system. We are currently at the manuscript preparation stage for this project.
-  This study offers a comprehensive framework for engineering collective quantum states in experimental platforms that realize power-law spin models, advancing      applications in quantum sensing and
-  simulation.
+  With Samuel E. Begg and Thomas Bilitewski, I studied the transition between collective dynamics with Heisenberg-limited squeezing and a partially collective regime in power-law interacting bilayer spin models. We identified distinct dynamical phases, universal scaling of the squeezing, and a divergent timescale. This work was published in <a href="https://doi.org/10.1103/7g55-lpff">Physical Review Letters 135, 150401 (2025)</a>.<br>
+  In subsequent work with Thomas Bilitewski, I tested this transition across lattice geometries, dimensions, and changes in microscopic couplings. Combining Bogoliubov analysis with discrete truncated Wigner simulations, we found consistent critical scaling across these settings. This study was published in <a href="https://doi.org/10.1103/py4q-klzp">Physical Review A 114, 032458 (2026)</a>.
 </details>  
 
 ### 3. Quantum Transport in Dirac Fermions
